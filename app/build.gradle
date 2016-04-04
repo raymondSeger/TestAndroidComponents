@@ -36,4 +36,6 @@ dependencies {
     compile 'com.appyvet:materialrangebar:1.3'
 
     compile 'com.wdullaer:materialdatetimepicker:2.3.0'
+
+    compile 'com.github.nicolasjafelle:paginglistview:1.2'
 }
