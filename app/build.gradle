@@ -32,10 +32,8 @@ dependencies {
     // https://github.com/mxn21/FlowingDrawer
     compile 'com.mxn.soul:flowingdrawer-core:1.2.2'
     compile 'com.nineoldandroids:library:2.4.0'
-
     compile 'com.appyvet:materialrangebar:1.3'
-
     compile 'com.wdullaer:materialdatetimepicker:2.3.0'
-
     compile 'com.github.nicolasjafelle:paginglistview:1.2'
+    compile 'com.google.code.gson:gson:2.6.2'
 }
