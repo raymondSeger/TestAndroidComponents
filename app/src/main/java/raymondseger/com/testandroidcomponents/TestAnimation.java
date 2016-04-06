@@ -1,5 +1,7 @@
 package raymondseger.com.testandroidcomponents;
 
+import android.animation.Animator;
+import android.animation.AnimatorInflater;
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.support.v7.app.AppCompatActivity;
@@ -36,11 +38,17 @@ public class TestAnimation extends AppCompatActivity {
                 */
 
                 // test AnimatorSet
+                /*
                 ObjectAnimator animator1 = ObjectAnimator.ofInt(textView3, "bottom", textView3.getTop(), textView3.getBottom() );
                 ObjectAnimator animator2 = ObjectAnimator.ofInt(textView4, "bottom", textView4.getTop(), textView4.getBottom() );
                 AnimatorSet animatorSet1 = new AnimatorSet();
                 animatorSet1.playSequentially(animator1, animator2);
                 animatorSet1.start();
+                */
+
+                Animator scaleIt = AnimatorInflater.loadAnimator(getApplicationContext(), R.animator.scale);
+                scaleIt.setTarget(textView3);
+                scaleIt.start();
             }
         });
     }
