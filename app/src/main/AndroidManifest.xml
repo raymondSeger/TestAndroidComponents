@@ -10,9 +10,10 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
         <activity android:name=".DatePickerActivity" />
-        <activity android:name=".PagingListViewActivity">
-        </activity>
+        <activity android:name=".PagingListViewActivity"></activity>
         <activity android:name=".GsonActivity">
+        </activity>
+        <activity android:name=".TestAnimation">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
