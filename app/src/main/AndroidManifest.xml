@@ -10,16 +10,18 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
         <activity android:name=".DatePickerActivity" />
-        <activity android:name=".PagingListViewActivity"></activity>
-        <activity android:name=".GsonActivity">
-        </activity>
+        <activity android:name=".PagingListViewActivity" />
+        <activity android:name=".GsonActivity" />
         <activity android:name=".TestAnimation">
+        </activity>
+        <activity android:name=".TestSharedElements1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".TestSharedElements2"></activity>
     </application>
 
 </manifest>
